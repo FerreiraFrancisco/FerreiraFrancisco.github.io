@@ -1,3 +1,3 @@
 # FerreiraFrancisco.github.io
 
-Olá. Seja muit bem vindo ao meu portfolio.
+Olá. Esses são os códigos utilizados no desenvolvimento desse portfólio.
