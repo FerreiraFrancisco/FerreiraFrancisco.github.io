@@ -1,376 +1,428 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Projetos voltados para a área de Ciência/Análise de Dados">
-    <meta name="author" content="Francisco Ferreira">
-    <title>Francisco Ferreira | Portfolio</title>
-    <link rel="icon" type="image.png" href="assets/imgs/Pixel.png">
+    <meta name="description" content="Start your development with Meyawo landing page.">
+    <meta name="author" content="Devcrud">
+    <title>Francisco I. dos R. Ferreira | Portfolio</title>
     <!-- font icons -->
     <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
-    <!-- Bootstrap + Steller main styles -->
-	<link rel="stylesheet" href="assets/css/steller.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-...." crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Bootstrap + Meyawo main styles -->
+	<link rel="stylesheet" href="assets/css/meyawo.css">
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
 
-    <!-- Page navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" data-spy="affix" data-offset-top="0">
+    <!-- Page Navbar -->
+    <nav class="custom-navbar" data-spy="affix" data-offset-top="20">
         <div class="container">
-            <a class="navbar-brand" href="#"><img src="assets/imgs/big data.svg" alt=""></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto align-items-center">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#sobre">Sobre</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#skills">Habilidades</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#blog">Projetos</a>
-                    </li>
-                    </li class="nav-item">
-                        <a class="nav-link" href="#conquistas">Conquistas</a>
-                    </li>
-                </ul>
-            </div>
+            <a class="logo" href="#">Bem vindo!</a>         
+            <ul class="nav">
+                <li class="item">
+                    <a class="link" href="#home">Início</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#about">Sobre</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#service">Habilidades</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#blog">Projetos</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#cursos">Cursos</a>
+                </li>
+            </ul>
+            <a href="javascript:void(0)" id="nav-toggle" class="hamburger hamburger--elastic">
+                <div class="hamburger-box">
+                  <div class="hamburger-inner"></div>
+                </div>
+            </a>
         </div>          
-    </nav>
-    <!-- End of page navibation -->
+    </nav><!-- End of Page Navbar -->
 
-    <!-- Page Header -->
-    <header class="header" id="home">
-        <div class="container">
-            <div class="infos">
-                <h6 class="subtitle">Olá! Sou o</h6>
-                <h6 class="title">Francisco Ferreira</h6>
-                <p>Estatístico</p>
+    <!-- page header -->
+    <header id="home" class="header">
+        <div class="overlay"></div>
+        <div class="header-content container">
+            <h1 class="header-title">
+                <span class="up">Olá!</span>
+                <span class="down">Sou o Francisco Ferreira</span>
+            </h1>
+            <p class="header-subtitle">Estatístico | Cientista de dados | Analista de dados</p>            
 
-                <div class="buttons pt-3">
-                    <a class="btn btn-mycolour rounded" href="https://wa.me/5561982372804?text=Ol%C3%A1%2C+Francisco%21+Vi+seu+portfolio+e+gostaria+de+conversar+com+voc%C3%AA.+Aguardo+o+seu+retorno."  target = "_blank">Fale comigo</a>
-                    <a class="btn btn-dark rounded" href="assets/MinimalistaNeutro.pdf" target="_blank" >Download CV</a>
-                </div>      
+            <!-- <button class="btn btn-primary">Visit My Works</button> -->
+        </div>              
+    </header><!-- end of page header -->
 
-                <div class="socials mt-4">
-                    <a class="social-item" href="https://www.linkedin.com/in/francisco-ferreira-b0abb222b/" target="_blank"><i class="ti-linkedin"></i></a>
-                    <a class="social-item" href="https://github.com/FerreiraFrancisco"  target="_blank"><i class="ti-github"></i></a>
-                    <a class="social-item" href="https://www.instagram.com/fr4ncisco.f3rreira/" target="_blank"><i class="ti-instagram"></i></a>
-                </div>
-            </div>              
-            <div class="img-holder">
-                <img src="assets/imgs/Pixel.png" alt="">
-            </div>      
-        </div>  
-    </header>
-    <!-- End of Page Header -->
-    
-    <!-- Seção sobre -->
-    <section id="sobre" class="section mt-3">
-        <div class="container mt-5">
-            <div class="row text-center text-md-left">
-                <div class="pl-md-4 col-md-15">
-                    <h6 class="title">Francisco Ferreira</h6>
-                    <p class="subtitle">Estatístico</p>
-                    <p>Olá e seja bem-vindo ao meu portfólio! Como um estatístico formado pela UnB, apaixonado por explorar a riqueza dos dados e encontrar histórias significativas por trás dos números. Durante meus dois anos de estágio no TRT 10ª, tive a oportunidade de mergulhar nas ferramentas de visualização de dados, como Tableau e Power BI, criando dashboards interativos que traduzem informações complexas em gráficos claros e intuitivos. Essa experiência me ensinou a comunicar análises de dados de maneira eficaz.</p>
-                    <p>Através deste portfólio, convido você a explorar os projetos e trabalhos que demonstram minha experiência prática e criatividade na resolução de desafios complexos por meio da análise de dados.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- End of Sectoin -->
-<!-- skills section -->
-
-<section id="skills" class="section">
-    <div class="container text-center">
-        <h6 class="section-title mb-4">Ferramentas que domino</h6>
-        <p class="mb-5 pb-4">Exploro e aplico várias habilidades para transformar dados em insights. <br> Veja as áreas em que sou proficiente:</p>
-
-        <div class="row">
-            <div class="col-sm-6 col-md-3 mb-4">
-                <div class="custom-card card border">
-                    <div class="card-body">
-                        <i class="fa-solid fa-r"></i>
-                        <h5>Rstudio</h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-3 mb-4">
-                <div class="custom-card card border">
-                    <div class="card-body">
-                        <i class="fa-brands fa-python"></i>
-                        <h5>Python</h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-3 mb-4">
-                <div class="custom-card card border">
-                    <div class="card-body">
-                        <i class="fa-solid fa-robot"></i>
-                        <h5>Machine Learning</h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-3 mb-4">
-                <div class="custom-card card border">
-                    <div class="card-body">
-                        <i class="icon ti-server"></i>
-                        <h5>SQL</h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-3 mb-4">
-                <div class="custom-card card border">
-                    <div class="card-body">
-                        <i class="icon ti-pie-chart"></i>
-                        <h5>Power BI</h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-3 mb-4">
-                <div class="custom-card card border">
-                    <div class="card-body">
-                        <i class="icon ti-panel"></i>
-                        <h5>Tableau</h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-3 mb-4">
-                <div class="custom-card card border">
-                    <div class="card-body">
-                        <i class="fa-solid fa-chart-line"></i>
-                        <h5>Looker Studio</h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-3 mb-4">
-                <div class="custom-card card border">
-                    <div class="card-body">
-                        <i class="icon ti-cloud"></i>
-                        <h5>AWS</h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-3 mb-4">
-                <div class="custom-card card border">
-                    <div class="card-body">
-                        <i class="fa-solid fa-table-list"></i>
-                        <h5>Sheets</h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-3 mb-4">
-                <div class="custom-card card border">
-                    <div class="card-body">
-                        <i class="fa-solid fa-table"></i>
-                        <h5>Excel</h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-3 mb-4">
-                <div class="custom-card card border">
-                    <div class="card-body">
-                        <i class="icon ti-github"></i>
-                        <h5>github</h5>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-    <!-- Blog Section -->
-    <section id="blog" class="section">
+    <!-- about section -->
+    <section class="section pt-0" id="about">
+        <!-- container -->
         <div class="container text-center">
-            <h6 class="section-title mb-4">Projetos concluídos</h6>
-            <p class="mb-5 pb-4">Você encontrará aqui alguns dos projetos que desenvolvi e/ou participei.</p>
-    
-            <div class="row text-left">
-                <div class="col-md-4">
-                    <div class="card border mb-4 d-flex flex-column">
-                        <img src="assets/imgs/blog-2.jpg" alt="" class="card-img-top w-100">
-                        <div class="card-body">
-                            <h5 class="card-title">Trabalho de conclusão de Curso.</h5>
-                            <div class="post-details">
-                                <a href="https://www.linkedin.com/in/francisco-ferreira-b0abb222b/" target="_blank">Postado por: Francisco Ferrerira</a>
-                            </div>
-                            <p>Trabalho de Conclusão de Curso - Análise de fatores que influenciaram o desempenho de atletas de futebol do Campeonato Brasileiro Série A 2022.</p>
-                            <a class="btn btn-mycolour rounded" href="assets/Relatório_Parcial_TCC___Francisco_Iago.pdf" target="_blank">Relatório Parcial</a>
-                        </div>
-                    </div>
+            <!-- about wrapper -->
+            <div class="about">
+                <div class="about-img-holder">
+                    <img src="assets/imgs/man.png" class="about-img">
                 </div>
-                <div class="col-md-4">
-                    <div class="card border mb-4">
-                        <img src="assets/imgs/blog-1.jpg" alt="" class="card-img-top w-100">
-                        <div class="card-body">
-                            <h5 class="card-title">Simulador IGEST TRT 10ª R.</h5>
-                            <div class="post-details">
-                                <a href="https://www.linkedin.com/in/francisco-ferreira-b0abb222b/" target="_blank">Postado por: Francisco Ferrerira</a>
-                            </div>
-                            <p>Simulador desenvolvido em R com o objetivo de proporcionar aos usuários uma visão abrangente da situação das varas trabalhistas da 10ª Região do Tribunal Regional do Trabalho</p>
-                            <a class="btn btn-mycolour rounded" href="https://github.com/FerreiraFrancisco/Simulador-IGEST--/" target="_blank">Painel</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card border mb-4">
-                        <img src="assets/imgs/SUS.png" alt="" class="card-img-top w-100">
-                        <div class="card-body">
-                            <h5 class="card-title">Análise de dados - Leitos no Brasil.</h5>
-                            <div class="post-details">
-                                <a href="https://www.linkedin.com/in/francisco-ferreira-b0abb222b/" target="_blank">Postado por: Francisco Ferrerira</a>
-                            </div>
-                            <p>Um estudo quantitativo exploratório sobre a quantidade de leitos em todo o Brasil.</p>
-                            <a class="btn btn-mycolour rounded" href="https://app.powerbi.com/view?r=eyJrIjoiZGUzZWQ4YTMtYjU2OS00ZmZjLTg3NmEtN2JmMWQxZmE5ZWJhIiwidCI6IjEwNGNkOGQ2LTI2NTktNDU3YS04MjhhLTQ4N2M4MTY1OWEyMiJ9" target="_blank">Painel</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card border mb-4">
-                        <img src="assets/imgs/series-temporais.png" alt="" class="card-img-top w-100">
-                        <div class="card-body">
-                            <h5 class="card-title">What is the best forecast?</h5>
-                            <div class="post-details">
-                                <a href="https://www.linkedin.com/in/francisco-ferreira-b0abb222b/" target="_blank">Postado por: Francisco Ferrerira</a>
-                            </div>
-                            <p>A comparative study between a manually analyzed time series using auto.arima and the 'Prophet' model.</p>
-                            <a class="btn btn-mycolour rounded" href="assets/What_is_the_best_forecast_ (1).pdf" target="_blank">Read</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-    
-            <!-- Projetos em desenvolvimento -->
-            <h6 class="section-title mb-4">Projetos em desenvolvimento</h6>
-            <p class="mb-5 pb-4">Atualmente estou trabalhando nos projetos abaixo, futuramente, quando forem concluídos serão adicionados a aba acima, por enquanto fique com um pequeno resumo do que cada um se trata.</p>
-    
-            <div class="row text-left">
-                <div class="col-md-4">
-                    <div class="card border mb-4 d-flex flex-column">
-                        <img src="assets/imgs/previne.jfif" alt="" class="card-img-top w-100">
-                        <div class="card-body">
-                            <h5 class="card-title">Indicadores PREVINE Brasil.</h5>
-                            <div class="post-details">
-                                <a href="https://www.linkedin.com/in/francisco-ferreira-b0abb222b/" target="_blank">Postado por: Francisco Ferrerira</a>
-                            </div>
-                            <p>Trabalho realizado durante a disciplina de LAB 2. Desenvolvimento de um painel com os dados do PREVINE 2018-2023 para as UBS do DF. </p>
-                            <a class="btn btn-mycolour rounded" href="assets/EMENTALABEST.pdf" target="_blank">Ementa</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+                <div class="about-caption">
+                    <p class="section-subtitle">Quem sou eu?</p>
+                    <h2 class="section-title mb-3">Um pouco sobre mim</h2>
+                    <p>
+                        Olá e seja bem-vindo ao meu portfólio! Como um estatístico formado pela UnB, apaixonado por explorar a riqueza dos dados e encontrar histórias significativas por trás dos números. Durante meus dois anos de estágio no TRT 10ª, tive a oportunidade de mergulhar nas ferramentas de visualização de dados, como Tableau e Power BI, criando dashboards interativos que traduzem informações complexas em gráficos claros e intuitivos. Essa experiência me ensinou a comunicar análises de dados de maneira eficaz.
 
+                        Através deste portfólio, convido você a explorar os projetos e trabalhos que demonstram minha experiência prática e criatividade na resolução de desafios complexos por meio da análise de dados.                
+                    </p>
+                     <a href="assets/MinimalistaNeutro.pdf" class="btn-rounded btn btn-outline-primary mt-4" download>Meu Currículo</a>
+                </div>              
+            </div><!-- end of about wrapper -->
+        </div><!-- end of container -->
+    </section> <!-- end of about section -->
 
-    <section id="conquistas" class="section">
+    <!-- service section -->  
+    <section class="section" id="service">
         <div class="container text-center">
-            <h6 class="section-title mb-4">Conquistas</h6>
-            <p class="mb-5 pb-4">Durante minha graduação, tive interessem em aprender coisas que iam além do meu curso. Aqui você pode verificar algumas das minhas conquistas.</p>
-    
+            <p class="section-subtitle">Mas o que eu sei?</p>
+            <h6 class="section-title mb-6">Habilidades práticas</h6>
+            <!-- row -->
             <div class="row">
-                <div class="col-sm-6 col-md-3 mb-4">
-                    <div class="custom-card card border-dark">
-                        <div class="card-body">
-                            <i class="icon ti-medal"></i>
-                            <h5>Data Analyst with R - Carrer Track</h5>
-                            <a class="btn btn-mycolour rounded" href="https://www.datacamp.com/statement-of-accomplishment/track/b9a76f25494075d289880fda19041b4ad3be08b7?raw=1" target="_blank">Ver conquista</a>
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="assets/Imagens/R_logo.png" class="icon">
+                            <h6 class="title">Rstudio</h6>
+                            <p>Principis bibliotecas para análise de dados e machine learning, além de bibliotecas para a criação de dashboards.</p>
                         </div>
                     </div>
                 </div>
-
-                <div class="col-sm-6 col-md-3 mb-4">
-                    <div class="custom-card card border-dark">
-                        <div class="card-body">
-                            <i class="icon ti-medal"></i>
-                            <h5>Formação Microsoft Power BI Profissional</h5>
-                            <a class="btn btn-mycolour rounded" href="https://www.udemy.com/certificate/UC-cb61adf8-89cb-4a48-afa7-dd2bed7c67bf/" target="_blank">Ver conquista</a>
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="assets/Imagens/Python_logo.png" class="icon">
+                            <h6 class="title">Python</h6>
+                            <p>Pandas, Scikit-learn, NumPy, TensorFlow, Matplotlib, Seaborn entre outros. Aprendendo Streamlit.</p>
                         </div>
                     </div>
                 </div>
-                
-                <div class="col-sm-6 col-md-3 mb-4">
-                    <div class="custom-card card border-dark">
-                        <div class="card-body">
-                            <i class="icon ti-medal"></i>
-                            <h5>Curso completo de Microsoft Excel</h5>
-                            <a class="btn btn-mycolour rounded" href="https://www.udemy.com/certificate/UC-2e4ed355-ec46-4f01-85d8-8d5eb9b88455/" target="_blank">Ver conquista</a>
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="assets/Imagens/SQL_SVG.svg" class="icon">
+                            <h6 class="title">SQL</h6>
+                            <p> Relacionamento, consulta, atualização, inserção, filtragem, agregação, criação e modificação de dados.</p>
                         </div>
                     </div>
                 </div>
-
-                <div class="col-sm-6 col-md-3 mb-4">
-                    <div class="custom-card card border-dark">
-                        <div class="card-body">
-                            <i class="icon ti-medal"></i>
-                            <h5>Machine Learning e Data Science com Python </h5>
-                            <a class="btn btn-mycolour rounded" href="https://www.udemy.com/certificate/UC-07810050-d08d-4e41-917e-2cc756727f6f/" target="_blank">Ver conquista</a>
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="assets/Imagens/excel-logo.png"  class="icon">
+                            <h6 class="title"> Excel</h6>
+                            <p>Fórmulas avançadas, automatização via macros, tabelas dinâmicas e gráficos.ㅤㅤㅤㅤㅤㅤㅤㅤㅤ</p>
                         </div>
                     </div>
                 </div>
-                
-            </div>
+                <div>
+                    
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="assets/Imagens/PowerBI_LOGO.png"  class="icon">
+                            <h6 class="title"> Power BI</h6>
+                            <p>Criação de visualizações interativas e integração com R e Python.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="assets/Imagens/Tableau_LOGO.png"  class="icon">
+                            <h6 class="title"> Tableau</h6>
+                            <p>Criação de visualizações interativas e integração com R e Python².</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="assets/Imagens/Looker_LOGO.jpg"  class="icon">
+                            <h6 class="title">Looker</h6>
+                            <p>Criação de visualizações interativas.ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="assets/Imagens/aws_logo.png"  class="icon">
+                            <h6 class="title">AWS</h6>
+                            <p>Conceitos iniciais sobre computação em nuvem.ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="assets/Imagens/GITHUB-LOGO.png"  class="icon">
+                            <h6 class="title">GitHub</h6>
+                            <p>Trabalhar com repositórios remotos.ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ</p>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- end of row -->
         </div>
+
+        <div class="container text-center">
+            <p class="section-subtitle">Mas também é preciso ter outras habilidades.</p>
+            <h6 class="section-title mb-6">Habilidades sociais</h6>
+            <!-- row -->
+            <div class="row">
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="assets/Imagens/Assertiveness.png" class="icon">
+                            <h6 class="title">Assertividade</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="assets/Imagens/empathy.svg" class="icon">
+                            <h6 class="title">Empatia</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="assets/Imagens/Respec.svg" class="icon">
+                            <h6 class="title">Respeito</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="assets/Imagens/speak-svgrepo-com.svg"  class="icon">
+                            <h6 class="title">Comunicação</h6>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="assets/Imagens/learning.svg" class="icon">
+                            <h6 class="title">Capacidade de aprendizado</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="assets/Imagens/team_work.svg" class="icon">
+                            <h6 class="title">Trabalho em equipe</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="assets/Imagens/creativity.svg" class="icon">
+                            <h6 class="title">Criatividade</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="assets/Imagens/problem.svg"  class="icon">
+                            <h6 class="title">Resolução de problemas</h6>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- end of row -->
+        </div>
+    </section><!-- end of service section -->
+    
+    <!-- blog section -->
+    <section class="section" id="blog">
+        <!-- container -->
+        <div class="container text-center">
+            <p class="section-subtitle">Projetos desenvolvidos</p>
+            <h6 class="section-title mb-6">Portfolio</h6>
+
+            <div class="blog-card">
+                <div class="blog-card-header">
+                    <img src="assets/Imagens/blog-2.jpg" class="blog-card-img" >
+                </div>
+                <div class="blog-card-body">
+                    <h5 class="blog-card-title">Trabalho de Conclusão de Curso</h6>
+
+                    <p class="blog-card-caption">
+                        <a>Por, Francisco Ferreira</a>
+                    </p>
+                    
+                    <p>Este trabalho foi desenvolvido para a obetenção do grau de <b>Bacharel em Estatística</b> pela Universidade de Brasília. A idéia que tive foi analisar o desempenho dos jogadores do Brasileirão Série A 2022 por meio de técnicas de <b>Análise Multivariada</b>. O trabalho será apresentado em dezembro de 2023, e por consequência, será postado em definitivo após minha defesa. Para ter uma ideia do tipo de trabalho que desenvolvi, fique com a proposta apresentada em maio.</p>
+
+                    <a href="assets/Proposta_TCC.pdf" target="_blank" class="blog-card-link">Ler mais <i class="ti-angle-double-right"></i></a>
+                </div>
+            </div>
+
+            <div class="blog-card">
+                <div class="blog-card-header">
+                    <img src="assets/Imagens/blog-1.jpg" class="blog-card-img" >
+                </div>
+                <div class="blog-card-body">
+                    <h5 class="blog-card-title">Simulador IGEST Nacional</h6>
+
+                    <p class="blog-card-caption">
+                        <a>Por, Francisco Ferreira</a>
+                    </p>
+                    
+                    <p>Durante meu período de estágio no Tribunal do Trabalho da 10ª Região, desenvolvi um <strong>aplicativo em Shiny</strong> para simular a colocação das varas de trabalho no ranking do IGEST. A época, utilizavamos um painél feito em Tableau, porém <strong>pouco funcional</strong>. O maior desafio era criar um painél que fosse <b>rápido</b>, <b>filtrasse</b> os valores adicionados pelo usuário, e que fosse capaz de mostrar o ranking em uma <b>única página</b>. A forma como desenvolvi esse trabalho pode ser encontrada no meu perfil do <b>Github</b>. </p>
+
+                    <a href="https://github.com/FerreiraFrancisco/Simulador-IGEST--/" target="_blank" class="blog-card-link">Ler mais <i class="ti-angle-double-right"></i></a>
+                </div>
+            </div>
+
+            <div class="blog-card">
+                <div class="blog-card-header">
+                    <img src="assets/Imagens/series-temporais.png" class="blog-card-img" >
+                </div>
+                <div class="blog-card-body">
+                    <h5 class="blog-card-title">Qual a melhor previsão?</h6>
+
+                    <p class="blog-card-caption">
+                        <a>Por, Francisco Ferreira</a>
+                    </p>
+                    
+                    <p>Durante a disciplina de <b>Séries Temporais</b>, uma coisa que meu professor dizia era que <b>nem sempre</b> o melhor modelo seria aquele escolhido pelo software.</p>
+                    <p>Nesse pequeno estudo, utilizo um dos trabalhos que fiz durante a matéria para tentar mostrar esse ponto.</p>
+
+                    <a href="assets/What_is_the_best_forecast_ (1).pdf" target="_blank" class="blog-card-link">Ler mais <i class="ti-angle-double-right"></i></a>
+                </div>
+            </div>
+
+        </div><!-- end of container -->
+    </section><!-- end of blog section -->
+
+        <!-- portfolio section -->
+        <section class="section" id="cursos">
+            <div class="container text-center">
+                <p class="section-subtitle">O que fiz além da graduação?</p>
+                <h6 class="section-title mb-6">Cursos e certificados</h6>
+                <!-- row -->
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <a href="https://www.datacamp.com/statement-of-accomplishment/track/b9a76f25494075d289880fda19041b4ad3be08b7?raw=1/" target="_blank" class="portfolio-card">
+                            <img src="assets/Imagens/ANALISEDEDADOS.jpg" class="portfolio-card-img" class="img-responsive rounded">    
+                            <span class="portfolio-card-overlay">
+                                <span class="portfolio-card-caption">
+                                    <h4>Data Analysis</h4>
+                                    <p class="font-weight-normal">Categoria: Análise de dados e  Rstudio.</p>
+                                </span>                         
+                            </span>                     
+                        </a>
+                    </div> 
+                    <div class="col-md-4 mb-4">
+                        <a href="https://www.udemy.com/certificate/UC-07810050-d08d-4e41-917e-2cc756727f6f/" target="_blank" class="portfolio-card">
+                            <img src="assets/Imagens/MACHINE.jpg" class="portfolio-card-img" class="img-responsive rounded">    
+                            <span class="portfolio-card-overlay">
+                                <span class="portfolio-card-caption">
+                                    <h4>Machine learning & Data Science</h4>
+                                    <p class="font-weight-normal">Categoria: Machine Learning e Python.</p>
+                                </span>                         
+                            </span>                     
+                        </a>
+                    </div> 
+                    <div class="col-md-4 mb-4">
+                        <a href="https://www.udemy.com/certificate/UC-cb61adf8-89cb-4a48-afa7-dd2bed7c67bf/" target="_blank" class="portfolio-card">
+                            <img src="assets/Imagens/Power-BI-3958025326.jpg" class="portfolio-card-img" class="img-responsive rounded">    
+                            <span class="portfolio-card-overlay">
+                                <span class="portfolio-card-caption">
+                                    <h4>Formação em Power BI</h4>
+                                    <p class="font-weight-normal">Categoria: Power BI e Dax.</p>
+                                </span>                         
+                            </span>                     
+                        </a>
+                    </div> 
+                    
+                    <div class="col-md-4 mb-4">
+                        <a href="https://www.udemy.com/certificate/UC-2e4ed355-ec46-4f01-85d8-8d5eb9b88455/" target="_blank" class="portfolio-card">
+                            <img src="assets/Imagens/excel.png" class="portfolio-card-img" class="img-responsive rounded">    
+                            <span class="portfolio-card-overlay">
+                                <span class="portfolio-card-caption">
+                                    <h4>Microsoft Excel</h4>
+                                    <p class="font-weight-normal">Categoria: Excel.</p>
+                                </span>                         
+                            </span>                     
+                        </a>
+                    </div> 
+
+                    <div class="col-md-4 mb-4">
+                        <a href="assets/Shiny.pdf" target="_blank" class="portfolio-card">
+                            <img src="assets/Imagens/Shiny.png" class="portfolio-card-img" class="img-responsive rounded">    
+                            <span class="portfolio-card-overlay">
+                                <span class="portfolio-card-caption">
+                                    <h4>Shiny Aplication</h4>
+                                    <p class="font-weight-normal">Categoria: Shiny, Rstudio.</p>
+                                </span>                         
+                            </span>                     
+                        </a>
+                    </div> 
+
+                    
+                </div>
+
+                <p class="section-subtitle">Em andamento</p>
+                
+                <div class="col-md-4 mb-4">
+                    <a href="assets/Imagens/Captura_SQL.png" target="_blank" class="portfolio-card">
+                        <img src="assets/Imagens/SQL_LOGO.jpg" class="portfolio-card-img" class="img-responsive rounded">    
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h4>Data Analisyst in SQL</h4>
+                                <p class="font-weight-normal">Categoria: Análise de dados, SQL.</p>
+                            </span>                         
+                        </span>                     
+                    </a>
+                </div> 
+
+            </div><!-- end of container -->
+        </section> <!-- end of portfolio section -->
+    
+
+    <!-- section -->
+    <section class="section-sm bg-primary">
+        <!-- container -->
+        <div class="container text-center text-sm-left">
+            <!-- row -->
+            <div class="row align-items-center">
+                <div class="col-sm offset-md-1 mb-4 mb-md-0">
+                    <h6 class="title text-light">Quer trabalhar comigo? 😁</h6>
+                    <p class="m-0 text-light">Entre em contato pelo meu LinkedIn.</p>
+                </div>
+                <div class="col-sm offset-sm-2 offset-md-3">
+                    <a href="https://www.linkedin.com/in/francisco-ferreira-b0abb222b/" target="_blank" class="btn btn-lg my-font btn-light rounded">Clique aqui</a>
+                </div>
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
     </section>
     
 
-    <!-- Hire me section -->
-    <section class="bg-gray p-0 section">
-        <div class="container">
-            <div class="card bg-mycolour">
-                <div class="card-body text-light">
-                    <div class="row align-items-center">
-                        <div class="col-sm-9 text-center text-sm-left">
-                            <h5 class="mt-3">Entre em contato comigo clicando no botão ao lado</h5>
-                            <p class="mb-3">Ou mande uma mensagem: (61) 982372804 / estat.iago.unb@gmail.com</p>
-                        </div>
-                        <div class="col-sm-3 text-center text-sm-right">
-                            <a class="- btn btn-mycolour rounded ml-4" href="https://wa.me/5561982372804?text=Ol%C3%A1%2C+Francisco%21+Vi+seu+portfolio+e+gostaria+de+conversar+com+voc%C3%AA.+Aguardo+o+seu+retorno." target="_blank">Fale comigo</a>
-                        </div>
-                    </div>
-                </div> 
-            </div>
-        </div>
-    </section>      
-    <!-- End od Hire me section. -->
-
-
-    <!-- Page Footer -->
-    <footer class="page-footer">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-sm-6">
-                </div>
-                <div class="col-sm-6">
-                    <div class="socials">
-                        <a class="social-item" href="https://www.linkedin.com/in/francisco-ferreira-b0abb222b/" target="_blank"><i class="ti-linkedin"></i></a>
-                        <a class="social-item" href="https://github.com/FerreiraFrancisco"  target="_blank"><i class="ti-github"></i></a>
-                        <a class="social-item" href="https://www.instagram.com/fr4ncisco.f3rreira/" target="_blank"><i class="ti-instagram"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer> 
-    <!-- End of page footer -->
 	
 	<!-- core  -->
     <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
     <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+
     <!-- bootstrap 3 affix -->
 	<script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
 
-    <!-- steller js -->
-    <script src="assets/js/steller.js"></script>
+    <!-- Meyawo js -->
+    <script src="assets/js/meyawo.js"></script>
 
 </body>
 </html>
